@@ -1,27 +1,40 @@
-# React + TypeScript + Vite
+<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" width="100%"/>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Blog React 
 
-Currently, two official plugins are available:
+Este projeto é um blog simples construído com tecnologias web modernas. Ele utiliza o React como biblioteca principal para criar uma interface de usuário dinâmica e responsiva. O TypeScript é empregado para garantir a tipagem estática e melhorar a manutenção do código. O Vite é utilizado como um ambiente de desenvolvimento rápido, permitindo uma experiência de desenvolvimento ágil e eficiente.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Recursos Principais:
 
-## Expanding the ESLint configuration
+- Listagem de Posts: Os posts do blog são exibidos em uma lista, com títulos, resumos e datas de publicação.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Páginas de Detalhes: Cada post tem uma página de detalhes dedicada que exibe o conteúdo completo do post.
 
-- Configure the top-level `parserOptions` property like this:
+- Armazenamento Local: O LocalStorage é utilizado para armazenar informações sobre os posts, como os títulos e resumos. Isso permite que os usuários acessem os posts mesmo quando estão offline ou após fechar o navegador.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- Navegação Intuitiva: A navegação é projetada de forma intuitiva, permitindo que os usuários cliquem em um post na lista para acessar os detalhes do post e voltem facilmente à lista de posts.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Responsividade: O layout do blog é responsivo, adaptando-se a diferentes tamanhos de tela, como desktops, tablets e smartphones.
+
+### Tecnologias Utilizadas:
+
+- React: Uma biblioteca JavaScript para criar interfaces de usuário interativas.
+
+- TypeScript: Uma linguagem de programação que adiciona tipagem estática ao JavaScript, melhorando a segurança e a manutenção do código.
+
+    Vite: Um ambiente de desenvolvimento rápido que oferece recarregamento rápido (hot-reloading) e uma configuração simplificada para aplicativos web modernos.
+
+- LocalStorage: Uma API do navegador que permite armazenar dados no navegador do usuário.
+
+
+É importante ressaltar que este projeto é voltado exclusivamente para fins educacionais e de aprendizado.
+
+### get started project
+
+    # clone o repositorio
+    git clone < repositorio >
+
+    # open project
+    cd ./ < name project >
+
+    # install all dependencias
