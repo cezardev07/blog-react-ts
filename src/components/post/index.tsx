@@ -78,7 +78,7 @@ export const Post = ({props}: {props : TypeProps}) => {
             </div>
             <div className="context">
                 <div className="wrapper">
-                    <Link to={`/artigo/${props.id}`}>{props.title}</Link>
+                    <Link to={`/blog-react-ts/artigo/${props.id}`}>{props.title}</Link>
                     <p title={props.content}>{props.content}</p>
                     <div className="plus">
                         <span>{props.date}</span> 

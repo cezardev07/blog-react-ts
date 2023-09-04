@@ -43,7 +43,7 @@ export const Article = () => {
                 ) : (
                     <div className="default">
                         <h1>404</h1>
-                        <Link to="/">
+                        <Link to="/blog-react-ts/">
                             Post não encontrado, clique aqui para voltar para o inicio
                         </Link>
                     </div>

@@ -12,10 +12,10 @@ export const Rotas = () => {
             <Header/> 
             <main>
                 <Routes>
-                    <Route path="/" element={<Home/>}/>
-                    <Route path="/new-post" element={<CreatedPost/>}/>
-                    <Route path="/admin" element={<Admin/>}/>
-                    <Route path="/artigo/:id" element={<Article/>}/>
+                    <Route path="/blog-react-ts/" element={<Home/>}/>
+                    <Route path="/blog-react-ts/new-post" element={<CreatedPost/>}/>
+                    <Route path="/blog-react-ts/admin" element={<Admin/>}/>
+                    <Route path="/blog-react-ts/artigo/:id" element={<Article/>}/>
                     <Route path="*" element={<PageDefault/>}/>
                 </Routes>
             </main>
