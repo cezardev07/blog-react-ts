@@ -29,7 +29,7 @@ export const Admin = () => {
                                         <img src={post.avatar} alt="" title="avatar"/>
                                     </div>
                                     <div className="title" title={post.content}>
-                                        <Link to={`/artigo/${post.id}`}>{post.title}</Link>
+                                        <Link to={`/blog-react-ts/artigo/${post.id}`}>{post.title}</Link>
                                     </div>
                                     <div className="buttons">
                                         <button onClick={() => handleDeletePost(post.id)} >apagar</button>
